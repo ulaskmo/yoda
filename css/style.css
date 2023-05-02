@@ -21,7 +21,7 @@
     align-items: center; /* Yeni eklendi */
 }  
 
-body {
-    transform: scale(2.5);
-    transform-origin: top left;
+html {
+    zoom: 250%;
   }
+  
