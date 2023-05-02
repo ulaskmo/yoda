@@ -20,6 +20,14 @@
     flex-wrap: wrap;
     align-items: center; /* Yeni eklendi */
 }  
+
+body {
+  transform: scale(2.5);
+  transform-origin: top left;
+}
+
+
+
 @media screen and (max-width: 767px) {
   /* Center the content vertically and horizontally */
   .content {
@@ -77,3 +85,4 @@
     padding: 10px 20px;
   }
 }
+
